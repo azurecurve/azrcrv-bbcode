@@ -219,9 +219,9 @@ function azrcrv_bbc_settings(){
 					
 					<tr><th scope="row"><?php esc_html_e("Font Size", "bbcode"); ?></th><td>[size=12pt]12pt font size[/size] [size=1.2em]1.2em font size[/size] [size=12px]12px font size[/size]</td></tr>
 					
-					<tr><th scope="row"><?php esc_html_e("Image", "bbcode"); ?></th><td>[img]http://s.wordpress.org/style/images/codeispoetry.png[/img] [img=Code is Poetry]http://s.wordpress.org/style/images/codeispoetry.png[/img]</td></tr>
+					<tr><th scope="row"><?php esc_html_e("Image", "bbcode"); ?></th><td>[img]https://docs.classicpress.net/wp-content/classicpress/logos/icon-gradient-600.png[/img] [img=ClassicPress icon]https://docs.classicpress.net/wp-content/classicpress/logos/icon-gradient-600.png[/img]</td></tr>
 					
-					<tr><th scope="row"><?php esc_html_e("URL", "bbcode"); ?></th><td>[url]https://development.org/[/url] [url=https://development.org/]WordPress[/url] [link]https://development.org/[/link] [link=https://development.org/]WordPress[/link]</td></tr>
+					<tr><th scope="row"><?php esc_html_e("URL", "bbcode"); ?></th><td>[url]www.classicpress.net/[/url] [url=www.classicpress.net]ClassicPress[/url] [link]www.classicpress.net/[/link] [link=https://www.classicpress.net/]ClassicPress[/link]</td></tr>
 					
 					<tr><th scope="row"><?php esc_html_e("Ordered List", "bbcode"); ?></th><td>[ol][li][/li][li][/li][/ol]</td></tr>
 					

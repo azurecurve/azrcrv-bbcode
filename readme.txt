@@ -1,6 +1,7 @@
 === BBCode ===
 Contributors: azurecurve
 Tags: bbcode,posts,pages
+Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
 Donate link: https://development.azurecurve.co.uk/support-development/
 Requires at least: 1.0.0
 Tested up to: 1.0.0
@@ -34,13 +35,13 @@ The following bbcodes can be used:
 		[size=1.2em]1.2em font size[/size]
 		[size=12px]12px font size[/size]
 	Image:
-		[img]http://s.wordpress.org/style/images/codeispoetry.png[/img]
-		[img=Code is Poetry]http://s.wordpress.org/style/images/codeispoetry.png[/img]
+		[img]https://docs.classicpress.net/wp-content/classicpress/logos/icon-gradient-600.png[/img]
+		[img=ClassicPress logo]https://docs.classicpress.net/wp-content/classicpress/logos/icon-gradient-600.png[/img]
 	URL:
-		[url]https://development.org/[/url]
-		[url=https://development.org/]WordPress[/url]
-		[link]https://development.org/[/link]
-		[link=https://development.org/]WordPress[/link]
+		[url]https://www.classicpress.net/[/url]
+		[url=https://www.classicpress.net/]ClassicPress[/url]
+		[link]https://www.classicpress.net/[/link]
+		[link=https://www.classicpress.net/]ClassicPress[/link]
 	Ordered lists:
 		[ol]ordered list[/ol]
 	Unordered lists:
@@ -73,6 +74,6 @@ Changes and feature additions for the BBCode plugin:
 
 == Frequently Asked Questions ==
 = Can I translate this plugin? =
-* Yes, the .pot fie is in the plugin's languages folder and can also be downloaded from the plugin page on https://development.azurecurve.co.uk; if you do translate this plugin please sent the .po and .mo files to translations@azurecurve.co.uk for inclusion in the next version (full credit will be given).
+* Yes, the .pot fie is in the plugin's languages folder and can also be downloaded from the plugin page on https://development.azurecurve.co.uk/; if you do translate this plugin please sent the .po and .mo files to translations@azurecurve.co.uk for inclusion in the next version (full credit will be given).
 = Is this plugin compatible with both WordPress and ClassicPress? =
 * This plugin is developed for ClassicPress, but will likely work on WordPress.
