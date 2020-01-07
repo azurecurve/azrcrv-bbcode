@@ -69,6 +69,9 @@ To install the BBCode plugin:
 
 == Changelog ==
 Changes and feature additions for the BBCode plugin:
+= 1.0.1 =
+* Update azurecurve menu for easier maintenance.
+* Move require of azurecurve menu below security check.
 = 1.0.0 =
 * First version for ClassicPress forked from azurecurve BBCode WordPress Plugin.
 
