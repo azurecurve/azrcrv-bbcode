@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: BBCode
  * Description: Allows bb code to be used to format posts and pages.
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode
@@ -24,6 +24,10 @@ if (!defined('ABSPATH')){
 
 // include plugin menu
 require_once(dirname( __FILE__).'/pluginmenu/menu.php');
+register_activation_hook(__FILE__, 'azrcrv_create_plugin_menu_bbc');
+
+// include update client
+require_once(dirname(__FILE__).'/libraries/updateclient/UpdateClient.class.php');
 
 /**
  * Setup actions, filters and shortcodes.
@@ -36,6 +40,7 @@ add_action('admin_menu', 'azrcrv_bbc_create_admin_menu');
 add_action('admin_enqueue_scripts', 'azrcrv_bbc_load_css');
 add_action('wp_enqueue_scripts', 'azrcrv_bbc_load_css');
 //add_action('the_posts', 'azrcrv_bbc_check_for_shortcode');
+add_action('plugins_loaded', 'azrcrv_bbc_load_languages');
 
 // add filters
 add_filter('plugin_action_links', 'azrcrv_bbc_add_plugin_action_link', 10, 2);
@@ -89,6 +94,17 @@ add_shortcode('center', 'azrcrv_bbc_centre');
 add_shortcode('CENTER', 'azrcrv_bbc_centre');
 add_shortcode('centre', 'azrcrv_bbc_centre');
 add_shortcode('CENTRE', 'azrcrv_bbc_centre');
+
+/**
+ * Load language files.
+ *
+ * @since 1.0.0
+ *
+ */
+function azrcrv_bbc_load_languages() {
+    $plugin_rel_path = basename(dirname(__FILE__)).'/languages';
+    load_plugin_textdomain('azrcrv-bbc', false, $plugin_rel_path);
+}
 
 /**
  * Check if shortcode on current page and then load css and jqeury.
@@ -191,7 +207,7 @@ function azrcrv_bbc_settings(){
 	}
 	?>
 	<div id="azrcrv-bbc-general" class="wrap">
-			<h2><?php echo esc_html(get_admin_page_title()); ?></h2>
+			<h1><?php echo esc_html(get_admin_page_title()); ?></h1>
 
 				<table class="form-table">
 				
