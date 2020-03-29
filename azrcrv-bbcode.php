@@ -3,10 +3,10 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: BBCode
  * Description: Allows bb code to be used to format posts and pages.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
- * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode
+ * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
  * Text Domain: bbcode
  * Domain Path: /languages
  * ------------------------------------------------------------------------------
@@ -168,7 +168,7 @@ function azrcrv_bbc_add_plugin_action_link($links, $file){
 	}
 
 	if ($file == $this_plugin){
-		$settings_link = '<a href="'.get_bloginfo('wpurl').'/wp-admin/admin.php?page=azrcrv-bbc">'.esc_html__('Settings' ,'bbcode').'</a>';
+		$settings_link = '<a href="'.get_bloginfo('wpurl').'/wp-admin/admin.php?page=azrcrv-bbc"><img src="'.plugins_url('/pluginmenu/images/Favicon-16x16.png', __FILE__).'" style="padding-top: 2px; margin-right: -5px; height: 16px; width: 16px;" alt="azurecurve" />'.esc_html__('Settings' ,'bbcode').'</a>';
 		array_unshift($links, $settings_link);
 	}
 
