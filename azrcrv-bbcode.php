@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: BBCode
  * Description: Allows bb code to be used to format posts and pages.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
@@ -37,13 +37,13 @@ require_once(dirname(__FILE__).'/libraries/updateclient/UpdateClient.class.php')
  */
 // add actions
 add_action('admin_menu', 'azrcrv_bbc_create_admin_menu');
-add_action('admin_enqueue_scripts', 'azrcrv_bbc_load_css');
-add_action('wp_enqueue_scripts', 'azrcrv_bbc_load_css');
-//add_action('the_posts', 'azrcrv_bbc_check_for_shortcode');
 add_action('plugins_loaded', 'azrcrv_bbc_load_languages');
 
 // add filters
 add_filter('plugin_action_links', 'azrcrv_bbc_add_plugin_action_link', 10, 2);
+add_filter('the_posts', 'azrcrv_bbc_check_for_shortcode');
+add_filter('codepotent_update_manager_image_path', 'azrcrv_bbc_custom_image_path');
+add_filter('codepotent_update_manager_image_url', 'azrcrv_bbc_custom_image_url');
 
 // add shortcodes
 add_shortcode('b', 'azrcrv_bbc_bold');
@@ -152,6 +152,32 @@ function azrcrv_bbc_check_for_shortcode($posts){
  */
 function azrcrv_bbc_load_css(){
 	wp_enqueue_style('azrcrv-bbc', plugins_url('assets/css/style.css', __FILE__));
+}
+
+/**
+ * Custom plugin image path.
+ *
+ * @since 1.3.0
+ *
+ */
+function azrcrv_bbc_custom_image_path($path){
+    if (strpos($path, 'azrcrv-bbcode') !== false){
+        $path = plugin_dir_path(__FILE__).'assets/pluginimages';
+    }
+    return $path;
+}
+
+/**
+ * Custom plugin image url.
+ *
+ * @since 1.3.0
+ *
+ */
+function azrcrv_bbc_custom_image_url($url){
+    if (strpos($url, 'azrcrv-bbcode') !== false){
+        $url = plugin_dir_url(__FILE__).'assets/pluginimages';
+    }
+    return $url;
 }
 
 /**
