@@ -6,7 +6,8 @@
 Allows users to use standard bbcodes in posts and pages in place of HTML tags.
 
 The following bbcodes can be used:
-```	Bold:
+```
+	Bold:
 		[b]bold[/b]
 	Italic:
 		[i]italics[/i]
@@ -47,7 +48,8 @@ The following bbcodes can be used:
 	Table data (cell):
 		[td][/td]
 	Code:
-		[code]function azc_bbcode_bold($atts, $content = null){ return "".do_shortcode($content).""; }[/code]```
+		[code]function azc_bbcode_bold($atts, $content = null){ return "".do_shortcode($content).""; }[/code]
+```
 
 Allows users to use standard bbcodes in posts and pages; [Shortcodes in Comments](https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-comments/'>Shortcodes In Comments) can be used to allow bbcodes in comments and [Shortcodes in Widgets]https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-widgets/) can allow them in widgets.
 
