@@ -70,7 +70,7 @@ The following bbcodes can be used:
 		[code]function azc_bbcode_bold($atts, $content = null){ return "".do_shortcode($content).""; }[/code]
 ```
 
-Allows users to use standard bbcodes in posts and pages; [Shortcodes in Comments](https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-comments/'>Shortcodes In Comments) can be used to allow bbcodes in comments and [Shortcodes in Widgets]https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-widgets/) can allow them in widgets.
+Allows users to use standard bbcodes in posts and pages; [Shortcodes in Comments](https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-comments/) can be used to allow bbcodes in comments and [Shortcodes in Widgets]https://development.azurecurve.co.uk/classicpress-plugins/shortcode-in-widgets/) can allow them in widgets.
 
 This plugin is multisite compatible.
 
