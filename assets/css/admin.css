@@ -1,0 +1,7 @@
+/*
+	other styles
+*/
+table.azrcrv-settings tr th:nth-child(1) {
+	width: 20%;
+	min-width: 150px;
+}
