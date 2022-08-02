@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: BBCode
  * Description: Allows bb code to be used to format posts and pages.
- * Version: 2.0.1
+ * Version: 2.1.0
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/

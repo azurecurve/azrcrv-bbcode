@@ -1,12 +1,12 @@
 === BBCode ===
 
 Description:	Allows users to use standard bbcodes in posts and pages in place of HTML tags.
-Version:		2.0.1
+Version:		2.1.0
 Tags:			bbcode,posts,pages
 Author:			azurecurve
 Author URI:		https://development.azurecurve.co.uk/
 Plugin URI:		https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
-Download link:	https://github.com/azurecurve/azrcrv-bbcode/releases/download/v2.0.1/azrcrv-bbcode.zip
+Download link:	https://github.com/azurecurve/azrcrv-bbcode/releases/download/v2.1.0/azrcrv-bbcode.zip
 Donate link:	https://development.azurecurve.co.uk/support-development/
 Requires PHP:	5.6
 Requires:		1.0.0
@@ -96,6 +96,9 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 # Changelog
 
+### [Version 2.1.0](https://github.com/azurecurve/azrcrv-bbcode/releases/tag/v2.1.0)
+ * Fix incorrect update server path; **plugin will need to be manually updated if 2.0.0 or 2.0.1 was installed**.
+ 
 ### [Version 2.0.1](https://github.com/azurecurve/azrcrv-bbcode/releases/tag/v2.0.1)
  * Fix bug in namespace of Update Client.
  
