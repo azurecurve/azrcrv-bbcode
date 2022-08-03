@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name: BBCode
  * Description: Allows bb code to be used to format posts and pages.
- * Version: 2.1.0
+ * Version: 2.1.1
  * Author: azurecurve
  * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
  * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
@@ -25,8 +25,14 @@ namespace azurecurve\BBCode;
 /**
  * Define constants.
  */
+const DEVELOPER_SHORTNAME = 'azurecurve';
+const DEVELOPER_NAME      = DEVELOPER_SHORTNAME . ' | Development';
+const DEVELOPER_URL_RAW  = 'https://development.azurecurve.co.uk/classicpress-plugins/';
+const DEVELOPER_URL      = '<a href="' . DEVELOPER_URL_RAW . '">' . DEVELOPER_NAME . '</a>';
+
 const PLUGIN_NAME       = 'BBCode';
-const PLUGIN_SLUG       = 'azrcrv-bbcode';
+const PLUGIN_SHORT_SLUG = 'bbcode';
+const PLUGIN_SLUG       = 'azrcrv-' . PLUGIN_SHORT_SLUG;
 const PLUGIN_HYPHEN     = 'azrcrv-bbc';
 const PLUGIN_UNDERSCORE = 'azrcrv_bbc';
 
