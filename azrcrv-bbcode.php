@@ -1,14 +1,18 @@
 <?php
 /**
  * ------------------------------------------------------------------------------
- * Plugin Name: BBCode
- * Description: Allows bb code to be used to format posts and pages.
- * Version: 2.1.3
- * Author: azurecurve
- * Author URI: https://development.azurecurve.co.uk/classicpress-plugins/
- * Plugin URI: https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
- * Text Domain: bbcode
- * Domain Path: /languages
+ * Plugin Name:		BBCode
+ * Description:		Allows bb code to be used to format posts and pages.
+ * Version:			2.1.4
+ * Requires CP:		1.0
+ * Author: 			azurecurve
+ * Author URI: 		https://development.azurecurve.co.uk/classicpress-plugins/
+ * Plugin URI: 		https://development.azurecurve.co.uk/classicpress-plugins/bbcode/
+ * Donate link:		https://development.azurecurve.co.uk/support-development/
+ * Text Domain:		bbcode
+ * Domain Path:		/assets/languages
+ * License: 		GPLv2 or later
+ * License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
  * ------------------------------------------------------------------------------
  * This is free software released under the terms of the General Public License,
  * version 2, or later. It is distributed WITHOUT ANY WARRANTY; without even the
