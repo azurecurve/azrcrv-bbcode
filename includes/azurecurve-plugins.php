@@ -3,6 +3,13 @@
  *  Menu plugins
  */
 
+/**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
 $azurecurve_plugins = array(
 	'Add Open Graph Tags'        => array(
 		'plugin_link' => 'azrcrv-add-open-graph-tags/azrcrv-add-open-graph-tags.php',

@@ -9,6 +9,13 @@
 namespace azurecurve\BBCode;
 
 /**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+/**
  * Instructions tab.
  */
 $tab_instructions_label = esc_html__( 'Instructions', 'azrcrv-bbc' );
@@ -306,7 +313,7 @@ $tab_instructions       = '
 	
 		<th scope="row" colspan=2 class="azrcrv-settings-section-heading">
 			
-				<h2 class="azrcrv-settings-section-heading">' . esc_html__( 'Complimentary Plugins', 'azrcrv-bbc' ) . '</h2>
+				<h2 class="azrcrv-settings-section-heading">' . esc_html__( 'Complementary Plugins', 'azrcrv-bbc' ) . '</h2>
 			
 		</th>
 

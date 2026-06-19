@@ -78,6 +78,10 @@ This plugin is developed for ClassicPress, but will likely work on WordPress.
 
 # Changelog
 
+### [Version 2.1.7](https://github.com/azurecurve/azrcrv-bbcode/releases/tag/v2.1.7)
+ * Add direct access check to files.
+ * Fix plugin icons and banners.
+ 
 ### [Version 2.1.6](https://github.com/azurecurve/azrcrv-bbcode/releases/tag/v2.1.6)
  * Upgrade UpdateClient.
  * Replace jquery with vanilla js.

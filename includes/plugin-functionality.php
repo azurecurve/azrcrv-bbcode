@@ -11,6 +11,13 @@
 namespace azurecurve\BBCode;
 
 /**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+/**
  * Bold BB Code shortcode.
  *
  * @since 1.0.0

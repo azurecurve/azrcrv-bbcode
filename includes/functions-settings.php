@@ -9,6 +9,13 @@
 namespace azurecurve\BBCode;
 
 /**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+/**
  * Display Settings page.
  *
  * @since 1.0.0

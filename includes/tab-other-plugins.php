@@ -9,6 +9,13 @@
 namespace azurecurve\BBCode;
 
 /**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+/**
  * Other Plugins tab.
  */
 $plugin_array = get_option( 'azrcrv-plugin-menu' );

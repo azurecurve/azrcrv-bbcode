@@ -180,7 +180,7 @@ msgid "Table"
 msgstr ""
 
 #: includes/tab-instructions.php:309
-msgid "Complimentary Plugins"
+msgid "Complementary Plugins"
 msgstr ""
 
 #: includes/tab-instructions.php:321

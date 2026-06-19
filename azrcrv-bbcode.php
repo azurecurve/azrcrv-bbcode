@@ -3,7 +3,7 @@
  * ------------------------------------------------------------------------------
  * Plugin Name:		BBCode
  * Description:		Allows bb code to be used to format posts and pages.
- * Version:			2.1.6
+ * Version:			2.1.7
  * Requires CP:		1.0
  * Requires PHP:	8.2
  * Author: 			azurecurve

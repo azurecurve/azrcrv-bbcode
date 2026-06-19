@@ -11,6 +11,13 @@
 namespace azurecurve\BBCode;
 
 /**
+ * Prevent direct access.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+/**
  * Register admin scripts.
  *
  * @since 2.0.0
